@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -79,6 +80,11 @@ ul {
     margin: 50px;
 }
 
+.header p {
+    font-weight: normal;
+    margin-top: 0;
+}
+
 .header h2 {
     font-size: 80px;
     margin-bottom: 20px;
@@ -86,18 +92,25 @@ ul {
 
 .section .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     justify-items: center;
     margin: 20px;
 }
 .section img {
     padding-top: 20px;
-    height: 350px;
-    width: 456px;
+    width: 720px;
+    height: 480px;
     border-radius: 50px;
+    box-shadow: 50px black;
 }
 
+footer .trademark {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+
+}
 
 
 
