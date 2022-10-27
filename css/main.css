@@ -117,9 +117,10 @@ section .breed-box {
     display: flex;
     background-color: #000B0E;
     flex-direction: row;
-    padding: 50px;
+    /* padding: 50px; */
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -127,8 +128,10 @@ section .text-breed {
     color: #fefeff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+    margin-top: auto;
+
 }
 
 section .text-breed h2 {
@@ -139,6 +142,7 @@ section .text-breed h2 {
 section .text-breed p {
     font-weight: lighter;
     font-size: small;
+    
 }
 
 footer .trademark {
