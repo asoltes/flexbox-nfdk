@@ -8,6 +8,7 @@
 body {
     background-color: #d3d3d3;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -103,6 +104,7 @@ ul {
     justify-items: center;
     margin: 20px;
     padding: 50px;
+
 }
 .section img {
     padding-top: 20px;
@@ -113,28 +115,21 @@ ul {
 }
 
 section .breed-box {
-    height: 300px;
     display: flex;
     background-color: #000B0E;
     flex-direction: row;
-    /* padding: 50px; */
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 section .text-breed {
     color: #fefeff;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-top: auto;
-
-}
-
-section .text-breed h2 {
+    flex-wrap: wrap;
     align-items: center;
 
 }
