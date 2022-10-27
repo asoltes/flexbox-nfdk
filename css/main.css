@@ -132,7 +132,6 @@ section .text-breed {
 }
 
 section .text-breed h2 {
-    display: flex;
     align-items: center;
 
 }
@@ -148,7 +147,6 @@ footer .trademark {
     display: flex;
     justify-content: center;
     background-color: #002A32;
-    /* height: 50px; */
     align-items: center;
 
 }
