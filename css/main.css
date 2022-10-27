@@ -97,6 +97,20 @@ ul {
     
 }
 
+.section .pcci-box {
+    background-color: #e6eaeb;
+    display: flex;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+    color: #002A32;
+}
+
+.section .pcci-box h2 {
+    border: 5px solid #264653;
+    border-radius: 20px;
+    padding: 15px;
+}
 .section .box {
     display: flex;
     justify-content: space-evenly;
@@ -104,8 +118,9 @@ ul {
     justify-items: center;
     margin: 20px;
     padding: 50px;
-
 }
+
+
 .section img {
     padding-top: 20px;
     width: 720px;
@@ -123,6 +138,7 @@ section .breed-box {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 20px;
+
 }
 
 section .text-breed {
