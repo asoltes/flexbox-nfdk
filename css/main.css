@@ -40,11 +40,11 @@ ul {
 .navbar .logo h1 {
     font-size: xx-large;
     font-weight: bold;
+
     /* border: 5px solid white;
     padding: 10px 30px;
     border-radius: 20px; */
 }
-
 
 .navbar a {
     color: #fff;
@@ -90,12 +90,19 @@ ul {
     margin-bottom: 20px;
 }
 
-.section .container {
+.header h2::first-letter {
+    font-size: 150%;
+    color: #fefeff;
+    
+}
+
+.section .box {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     justify-items: center;
     margin: 20px;
+    padding: 50px;
 }
 .section img {
     padding-top: 20px;
@@ -105,10 +112,39 @@ ul {
     box-shadow: 50px black;
 }
 
-footer .trademark {
-    font-weight: normal;
+section .breed-box {
+    height: 300px;
+    display: flex;
+    background-color: #000B0E;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section .text-breed {
+    color: #fefeff;
+}
+
+section .text-breed h2 {
     display: flex;
     justify-content: center;
+}
+
+section .text-breed p {
+    font-weight: lighter;
+    font-size: small;
+}
+
+footer .trademark {
+    font-weight: normal;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #002A32;
+    height: 50px;
+    align-items: center;
 
 }
 
