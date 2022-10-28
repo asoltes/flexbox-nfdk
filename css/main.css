@@ -87,13 +87,16 @@ ul {
 }
 
 .header h2 {
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 20px;
+    text-shadow: 10px 10px 5px #000B0E;
+    text-transform: uppercase;
 }
 
 .header h2::first-letter {
     font-size: 150%;
     color: #fefeff;
+    text-shadow: 10px 10px #000B0E;
     
 }
 
@@ -118,15 +121,25 @@ ul {
     justify-items: center;
     margin: 20px;
     padding: 50px;
+    gap: 20px;
 }
 
 
 .section img {
-    padding-top: 20px;
     width: 720px;
     height: 480px;
-    border-radius: 50px;
+    border-radius: 60px;
     box-shadow: 50px black;
+
+}
+
+.section .box .image {
+    background-color: #e6eaeb;
+    box-shadow:  3px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 25px;
+
+
 }
 
 section .breed-box {
